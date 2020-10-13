@@ -1,0 +1,6 @@
+language: java
+
+dist: bionic
+
+before_install:
+   - echo $(ant -version)
